@@ -2,7 +2,7 @@
 title: Back up your data
 date: 2023-08-31
 categories: [wiki]
-tags: [wiki, ]
+tags: [wiki, backup, system]
 ---
 
 # This method makes a backup of entire partitions, so you can restore your base system in case you want to go back to stock. 
