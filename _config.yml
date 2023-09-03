@@ -76,7 +76,7 @@ theme_mode: dark
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "https://raw.githubusercontent.com/driedpampas/DriedPages/main/images/profile.png"
+avatar: "assets/img/favicons/android-chrome-512x512.png"
 
 # boolean type, the global switch for TOC in posts.
 toc: true
