@@ -2,7 +2,7 @@
 title: Enable Unlimited GPhotos backup
 date: 2023-08-24
 categories: [wiki]
-tags: [wiki, google-photos, unlimited, backup]
+tags: [wiki, google-photos, unlimited, backup, mods]
 ---
 
 # Only for rooted devices
