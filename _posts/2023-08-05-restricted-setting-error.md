@@ -1,6 +1,6 @@
 ---
-title: 
-date: 
+title: Restricted setting error
+date: 2023-08-05
 categories: [wiki]
 tags: [wiki, restricted, setting, error]
 ---
