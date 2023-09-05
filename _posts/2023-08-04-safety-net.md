@@ -5,7 +5,8 @@ categories: [wiki]
 tags: [wiki, safety-net, rooted-only]
 ---
 
-# This is for rooted devices only
+> This is for rooted devices only
+{: .prompt-danger }
 
 ## Magisk
 - Install [safetynet-fix](https://drive.google.com/file/d/1JBEgzBqVKWD1U5GgP46sFXse_1UmqgCJ/view?usp=sharing) with Magisk Manager

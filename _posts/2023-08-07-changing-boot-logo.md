@@ -5,7 +5,8 @@ categories: [wiki]
 tags: [wiki, system, boot-logo, mods]
 ---
 
-# This will modify the boot LOGO that displays BEFORE the boot ANIMATION (example below)
+> This will modify the boot LOGO that displays BEFORE the boot ANIMATION (example below)
+{: .prompt-info }
 ![](https://i.imgur.com/W2trsoc.png){: height="400" }
 
 # Prerequisites
@@ -29,9 +30,10 @@ tags: [wiki, system, boot-logo, mods]
 ## 6. In the folder edit or replace `img1.png`
 <img src="https://i.imgur.com/8Rbt5BJ.png">
 
-# There are 2 ways to get the new logo on your device: using `fastboot` or `adb sideload in recovery`
+> # There are 2 ways to get the new logo on your device: using `fastboot` or `adb sideload in recovery`
+{: .prompt-tip }
 
-## Fastboot
+## 1. Fastboot
 ### 1. Once finished with the editing, go back to the app and click `Make`. It will take a bit to make the file.
 <img src="https://i.imgur.com/rga03Gy.png">
 
@@ -44,7 +46,7 @@ tags: [wiki, system, boot-logo, mods]
 ### 3. Copy this file to the `platform-tools folder`. Make sure `USB Debugging` is enabled on your device and run the command `adb reboot bootloader`. When your phone shows `fastboot_unlock_verify ok`, run this command `fastboot flash logo logo.bin`. When it finishes run `fastboot reboot` and your phone will restart and show your new boot logo. 
 <img src="https://i.imgur.com/bP8LQBI.png">
 
-## ADB sideload
+## 2. ADB sideload
 ### 1. Download and copy these files to project folder: [updater-script](https://drive.google.com/file/d/13_QkS4s3rBpwP3hWYQoGXYjD9ftoYFvy/view?usp=drivesdk), [update-binary](https://drive.google.com/uc?id=1UHfDA262JRcx6coWq6sf26fTII8DxFoi&export=download).
 <img src="https://i.imgur.com/cIv2aWz.png">
 

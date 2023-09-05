@@ -5,7 +5,9 @@ categories: [wiki]
 tags: [wiki, google-photos, unlimited, backup, mods]
 ---
 
-# Only for rooted devices
+> # Only for rooted devices
+{: .prompt-danger }
+
 ## Magisk
 - install LSposed using Magisk Manager
 - activate zygisk
