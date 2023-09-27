@@ -7,7 +7,7 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "guide.driedpmapas.ro.eu.org", // replace this with your deployed domain
+  site: "https://guide.driedpmapas.ro.eu.org", // replace this with your deployed domain
   integrations: [
     tailwind({
       applyBaseStyles: false,
