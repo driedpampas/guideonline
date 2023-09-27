@@ -16,42 +16,26 @@ canonicalURL: https://guide.driedpampas.ro.eu.org/guide
 ---
 
 # Realme 8 MEGAGUIDE
-###### Version 2.0-online
+###### Version 2.1-astro
 ==================
 
-
-
 > If you have any questions at any moment feel free to message [Realme 8 AOSP](https://t.me/Realme8AOSPGroup) on Telegram or [open a new Discussion](https://github.com/driedpampas/realme-8-megaguide/discussions/new/choose) on GitHub. Also check the [FAQ (frequently asked questions)](posts/FAQ/)
-{: .prompt-tip }
 
 > Disclaimer - We WON'T be responsible if anything happens with your device. - Neither Windows 7 (old python version) nor RealmeUI 4 (lk method was patched) are supported
-{: .prompt-warning }
 
 > If you have unlocked already skip to [[EXTRA] Installing a Custom recovery and ROM](#iii-installing--a-custom-recovery-and-rom)
-{: .prompt-tip }
 
 > Make sure to back up your data, because you will lose it. If you want to back up your RealmeUI install just in case use the [Backup guide (in wiki)](posts/back-up-your-data)
-{: .prompt-info }
 
 > **Make sure to read and do all of the steps to avoid your device being bricked.**
-{: .prompt-danger }
 
 > **WARNING: RUI4 disables fastboot access if previously unlocked, only upgrade to RUI3 until it is resolved.**
-{: .prompt-danger }
 
 * * *
 
-# Table of Contents 
-I. [Unlocking the bootloader](#i-unlocking) 
-   1. [Installing Prerequisites](#1-installing-prerequisites) 
-   2. [Downgrade to RUI2](#2-downgrade-to-rui2) 
-   3. [Unlocking the bootloader](#3-unlocking-the-bootloader) 
-   4. [Upgrade to RealmeUI 3](#4-upgrade-to-realmeui-3)  
-   
-II. [Patching `lk` - qetting fastboot access and removing dm-verity and orange state](#ii-patching-lk--qetting-fastboot-access-and-removing-dm-verity-and-orange-state-warnings--skip-only-if-you-unlocked-with-deep-testing)  
-III. [Installing a Custom ROM](#iii-installing--a-custom-recovery-and-rom)  
-IV. [Rooting](#iv-rooting)  
+## Table of Contents
 
+* * *
 # I. Unlocking 
 
 ## Prerequisites 
@@ -76,7 +60,7 @@ IV. [Rooting](#iv-rooting)
 3. ### Install [Python from Microsoft Store](https://apps.microsoft.com/store/detail/python-310/9PJPW5LDXLZ5) 
 
 > **Do not disconnect the phone during the flashing and unlocking processes**
-{: .prompt-danger}
+
 
 ## 2. Downgrade to RUI2 
 
@@ -103,7 +87,7 @@ IV. [Rooting](#iv-rooting)
    ![Image](https://i.imgur.com/VTwpXzC.png)
 	
    > **Remember to uncheck: `opporeserve2` and `cdt_engineering`**
-   {: .prompt-danger }
+   
    
    | opporeserve2 (Signed partition)  | cdt_engineering (Digital warranty codes) |
    | :------------------------------- | :--------------------------------------- |
@@ -135,15 +119,14 @@ IV. [Rooting](#iv-rooting)
    ![](https://i.imgur.com/Su8RtHk.png)
 
    > **After this, turn on your phone. First boot will take around 5-20 minutes.** 
-   {: .prompt-tip }
+   
 
    > **You will see `dm-verity corruption` and `orange state` warnings. Press the *Power Button* to continue. These are normal and will be patched later in the guide.**
-   {: .prompt-warning }
+   
 
 5. Your bootloader is now unlocked. 
 
 > ❗ Check [FAQ (frequently asked questions)](posts/FAQ) if something does not work or you have questions 
-{: .prompt-tip }
 
 ## 4. Upgrade to RealmeUI 3 
 1. Open a cmd again in [MTK Client's](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) folder
@@ -185,16 +168,13 @@ IV. [Rooting](#iv-rooting)
    ![](https://i.imgur.com/08VdiB8.png)
 
 > ❗ Check [FAQ (frequently asked questions)](posts/FAQ) if something does not work or you have questions 
-{: .prompt-tip }
 
 * * *
 
 # II. Patching `lk`- qetting fastboot access and removing dm-verity and orange state warnings  
 > ❕ SKIP ONLY IF you unlocked with DEEP TESTING 
-{: .prompt-tip }
 
 > Do not disconnect the phone during the process
-{: .prompt-warning}
 
 1. Open the console again in `MTK Client` folder
 
@@ -219,7 +199,6 @@ IV. [Rooting](#iv-rooting)
 6. Run command `python mtk w lk lk-patched.bin`  
 
 > Check [the FAQ](posts/FAQ/#2-i-patched-my-lk-but-the-phone-still-says-fastboot_verify_fail) if you have any issues
-{: .prompt-tip }
 
 # III. Installing a Custom Recovery and ROM 
 
@@ -242,14 +221,11 @@ IV. [Rooting](#iv-rooting)
 4. In the command prompt run `adb reboot boootloader`. Phone will reboot to a screen that says `fastboot_unlock_verify ok`. 
 
 > ❗ Check [FAQ (frequently asked questions)](posts/FAQ) if something does not work or you have questions 
-{: .prompt-tip }
 
 ## 2. Installing custom recovery and sideloading custom rom 
 > ⚠️ If switching between custom roms skip step 2. 
-{: .prompt-info }
 
 > ⚠️ If the required recovery has not changed you may skip step 3 as well, and run `adb reboot recovery` directly.
-{: .prompt-info }
 
 1. Move the `recovery.img` and `vbmeta.img` files to the **platform-tools** folder. 
 2. Run the command `fastboot --disable-verity --disable-verification flash vbmeta vbmeta.img`. It should show
@@ -279,7 +255,6 @@ IV. [Rooting](#iv-rooting)
 8. Once finished, in the recovery go back to `Reboot system now`. The phone will reboot into your Custom ROM. 
 
 > If you get a "Signature verification error" on your phone, click `Yes` to continue anyways, this goes the same to any other ZIPs you flash.
-{: .prompt-info } 
 
 # IV. Rooting
 
@@ -320,14 +295,12 @@ IV. [Rooting](#iv-rooting)
 ## 2. With KernelSU
 
 > ONLY WORKS ON CUSTOM ROMS (DO NOT ATTEMPT on RealmeUI)
-{: .prompt-danger }
 
 ### You will need 
 - [KernelSU zip file](https://drive.google.com/file/d/1hBYm9nA2EyCC-ioQruj5vNmrAlW1Ayta/view?usp=sharing) - download on pc 
 - [KernelSU manager (apk file)](https://github.com/tiann/KernelSU/releases/download/v0.6.7/KernelSU_v0.6.7_11210-release.apk) - Download this on your phone. 
 
 > If you get a "Signature verification error" on your phone, click `Yes` to continue anyways, this goes the same to any other ZIPs you flash.
-{: .prompt-info } 
 
 1. ### You need to be in recovery mode; run `adb reboot recovery` 
 2. In recovery select `Apply update > Apply from ADB` and run `adb sideload kernelsu.zip`. 
@@ -343,10 +316,9 @@ IV. [Rooting](#iv-rooting)
 - `adb reboot bootloader` 
 - `fastboot flash boot boot.img` 
 
-> More extras in [WIKI](/tags/wiki) 
-{: .prompt-tip } 
+> More extras in [WIKI](/tags/wiki)
 
-## Special thanks & credits 
+# Special thanks & credits 
 > [Ben](https://github.com/bengris32/android_kernel_realme_mt6785) - Made everything possible by making the kernel for Realme 8  
 > [bkerler](https://twitter.com/viperbjk) - developer of [MtkClient](https://github.com/bkerler/mtkclient)  
 > [Roger](https://t.me/R0rt1z2) - creator of [oplus-unlock](https://github.com/R0rt1z2/oplus-unlock)  
@@ -366,4 +338,4 @@ IV. [Rooting](#iv-rooting)
 > Telegram: [Realme 8 AOSP](https://t.me/Realme8AOSPGroup) Witten by [me](https://t.me/driedpampas) with 🫶.  
   
 > No guarantees are given at any point. Use with caution. Neither me nor contributors are responsible for any damage you do to your device(s).
-{: .prompt-warning } 
+ 
