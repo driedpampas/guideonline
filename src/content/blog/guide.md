@@ -23,13 +23,13 @@ canonicalURL: https://guide.driedpampas.ro.eu.org/guide
 
 > Disclaimer - We WON'T be responsible if anything happens with your device. - Neither Windows 7 (old python version) nor RealmeUI 4 (lk method was patched) are supported
 
-> If you have unlocked already skip to [[EXTRA] Installing a Custom recovery and ROM](#iii-installing--a-custom-recovery-and-rom)
+> ℹ️ If you have unlocked already skip to [[EXTRA] Installing a Custom recovery and ROM](#iii-installing--a-custom-recovery-and-rom)
 
 > Make sure to back up your data, because you will lose it. If you want to back up your RealmeUI install just in case use the [Backup guide (in wiki)](posts/back-up-your-data)
 
-> **Make sure to read and do all of the steps to avoid your device being bricked.**
+> **✴️ Make sure to read and do all of the steps to avoid your device being bricked.**
 
-> **WARNING: RUI4 disables fastboot access if previously unlocked, only upgrade to RUI3 until it is resolved.**
+> **📛 WARNING: RUI4 disables fastboot access if previously unlocked, only upgrade to RUI3 until it is resolved.**
 
 * * *
 
@@ -59,7 +59,7 @@ canonicalURL: https://guide.driedpampas.ro.eu.org/guide
 
 3. ### Install [Python from Microsoft Store](https://apps.microsoft.com/store/detail/python-310/9PJPW5LDXLZ5) 
 
-> **Do not disconnect the phone during the flashing and unlocking processes**
+> **🛑 Do not disconnect the phone during the flashing and unlocking processes**
 
 
 ## 2. Downgrade to RUI2 
@@ -86,7 +86,7 @@ canonicalURL: https://guide.driedpampas.ro.eu.org/guide
 
    ![Image](https://i.imgur.com/VTwpXzC.png)
 	
-   > **Remember to uncheck: `opporeserve2` and `cdt_engineering`**
+   > **🛑 Remember to uncheck: `opporeserve2` and `cdt_engineering`**
    
    
    | opporeserve2 (Signed partition)  | cdt_engineering (Digital warranty codes) |
@@ -118,11 +118,9 @@ canonicalURL: https://guide.driedpampas.ro.eu.org/guide
 
    ![](https://i.imgur.com/Su8RtHk.png)
 
-   > **After this, turn on your phone. First boot will take around 5-20 minutes.** 
-   
+   > **🔄 After this, turn on your phone. First boot will take around 5-20 minutes.** 
 
-   > **You will see `dm-verity corruption` and `orange state` warnings. Press the *Power Button* to continue. These are normal and will be patched later in the guide.**
-   
+   > **📛 You will see `dm-verity corruption` and `orange state` warnings. Press the *Power Button* to continue. These are normal and will be patched later in the guide.**
 
 5. Your bootloader is now unlocked. 
 
@@ -174,7 +172,7 @@ canonicalURL: https://guide.driedpampas.ro.eu.org/guide
 # II. Patching `lk`- qetting fastboot access and removing dm-verity and orange state warnings  
 > ❕ SKIP ONLY IF you unlocked with DEEP TESTING 
 
-> Do not disconnect the phone during the process
+> 🛑 Do not disconnect the phone during the process
 
 1. Open the console again in `MTK Client` folder
 
@@ -254,7 +252,7 @@ canonicalURL: https://guide.driedpampas.ro.eu.org/guide
 
 8. Once finished, in the recovery go back to `Reboot system now`. The phone will reboot into your Custom ROM. 
 
-> If you get a "Signature verification error" on your phone, click `Yes` to continue anyways, this goes the same to any other ZIPs you flash.
+> ⚠️ If you get a "Signature verification error" on your phone, click `Yes` to continue anyways, this goes the same to any other ZIPs you flash.
 
 # IV. Rooting
 
@@ -294,13 +292,13 @@ canonicalURL: https://guide.driedpampas.ro.eu.org/guide
 
 ## 2. With KernelSU
 
-> ONLY WORKS ON CUSTOM ROMS (DO NOT ATTEMPT on RealmeUI)
+> 🚫 ONLY WORKS ON CUSTOM ROMS (DO NOT ATTEMPT on RealmeUI)
 
 ### You will need 
 - [KernelSU zip file](https://drive.google.com/file/d/1hBYm9nA2EyCC-ioQruj5vNmrAlW1Ayta/view?usp=sharing) - download on pc 
 - [KernelSU manager (apk file)](https://github.com/tiann/KernelSU/releases/download/v0.6.7/KernelSU_v0.6.7_11210-release.apk) - Download this on your phone. 
 
-> If you get a "Signature verification error" on your phone, click `Yes` to continue anyways, this goes the same to any other ZIPs you flash.
+> ⚠️ If you get a "Signature verification error" on your phone, click `Yes` to continue anyways, this goes the same to any other ZIPs you flash.
 
 1. ### You need to be in recovery mode; run `adb reboot recovery` 
 2. In recovery select `Apply update > Apply from ADB` and run `adb sideload kernelsu.zip`. 
@@ -316,7 +314,7 @@ canonicalURL: https://guide.driedpampas.ro.eu.org/guide
 - `adb reboot bootloader` 
 - `fastboot flash boot boot.img` 
 
-> More extras in [WIKI](/tags/wiki)
+> 🎴 More extras in [WIKI](/tags/wiki)
 
 # Special thanks & credits 
 > [Ben](https://github.com/bengris32/android_kernel_realme_mt6785) - Made everything possible by making the kernel for Realme 8  

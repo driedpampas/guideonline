@@ -14,13 +14,12 @@ canonicalURL: https://guide.driedpampas.ro.eu.org/backup-data
 ---
 
 
-> This method makes a backup of entire partitions, so you can restore your base system in case you want to go back to stock.
-{: .prompt-warning }
+> ⚠️ This method makes a backup of entire partitions, so you can restore your base system in case you want to go back to stock.
 
-> ❗ PERSONAL DATA IS NOT BACKED UP USING THIS METHOD
+> 📛 PERSONAL DATA IS NOT BACKED UP USING THIS METHOD
 {: .prompt-danger }
 
-> Use GDrive, another cloud service, or transfer your personal data to a physical media, wherever you feel it is safe.
+> ✨ Use GDrive, another cloud service, or transfer your personal data to a physical media, wherever you feel it is safe.
 {: .prompt-info }
 
 ## Prerequisites
@@ -45,8 +44,7 @@ canonicalURL: https://guide.driedpampas.ro.eu.org/backup-data
 
 ## To flash the entire backup back to your device use `python mtk wl (folder name)` in a command prompt. To only flash some files use `python mtk w (partition) (file name)`.
 
-> ❗ A preloader file will be backed up inside `mtk client` folder. Keep that file as safe as possible, as it's crucial to restoring the firmware.
-{: .prompt-warning }
+> 📛 A preloader file will be backed up inside `mtk client` folder. Keep that file as safe as possible, as it's crucial to restoring the firmware.
 
-> ❗ DO NOT FLASH SOMEONE ELSE'S BACKUP FILES (only se firmware packages provided for that purpose and their instructions)
+> 📛 DO NOT FLASH SOMEONE ELSE'S BACKUP FILES (only se firmware packages provided for that purpose and their instructions)
 {: .prompt-danger }

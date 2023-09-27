@@ -14,9 +14,10 @@ description: Change the boot logo to personalize your device
 canonicalURL: https://guide.driedpampas.ro.eu.org/boot-logo
 ---
 
-> This will modify the boot LOGO that displays BEFORE the boot ANIMATION (example below)
-{: .prompt-info }
+> ✨ This will modify the boot LOGO that displays BEFORE the boot ANIMATION (example below)
 ![](https://i.imgur.com/W2trsoc.png)
+
+## Table of contents
 
 # Prerequisites
 - [platform-tools](https://dl.google.com/android/repository/platform-tools-latest-windows.zip)
@@ -39,8 +40,7 @@ canonicalURL: https://guide.driedpampas.ro.eu.org/boot-logo
 ## 6. In the folder edit or replace `img1.png`
 <img src="https://i.imgur.com/8Rbt5BJ.png">
 
-> # There are 2 ways to get the new logo on your device: using `fastboot` or `adb sideload in recovery`
-{: .prompt-tip }
+# There are 2 ways to get the new logo on your device: using `fastboot` or `adb sideload in recovery`
 
 ## 1. Fastboot
 ### 1. Once finished with the editing, go back to the app and click `Make`. It will take a bit to make the file.

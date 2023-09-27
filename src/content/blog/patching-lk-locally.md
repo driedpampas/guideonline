@@ -22,13 +22,13 @@ canonicalURL: https://guide.driedpampas.ro.eu.org/lk-patch-manual
 
 4. Run  the command `python mtk r lk lk.bin`. There will now be a `lk.bin` file in **MTK Client** folder.
 
-	![](https://i.imgur.com/gL4Qpc2.png){: height="500" }
+	![](https://i.imgur.com/gL4Qpc2.png)
 
 5. Download [oplus-unlock](https://github.com/R0rt1z2/oplus-unlock/archive/refs/heads/master.zip) and extract it. Navigate to the `oplus_unlock folder`. It should contain a file `main.py`
 	
-    ![](https://i.ibb.co/r68tF52/Screenshot-from-2023-08-02-16-29-59.png){: height="500" }
+   ![](https://i.ibb.co/r68tF52/Screenshot-from-2023-08-02-16-29-59.png){
 
- 	![](https://i.ibb.co/R9VhQPn/Screenshot-from-2023-08-02-16-30-22.png){: height="500" }
+ 	![](https://i.ibb.co/R9VhQPn/Screenshot-from-2023-08-02-16-30-22.png)
 
 6. Move `lk.bin` to **oplus_unlock folder**. Open the console in **oplus_unlock** folder
 
@@ -36,9 +36,8 @@ canonicalURL: https://guide.driedpampas.ro.eu.org/lk-patch-manual
 
 7. Run command `python main.py lk.bin -o lk-patched.bin`. A `lk-patched.bin` file will be created. Move it to **MTK Client** folder. 
 
-    > ❗ If you get errors, use command `python mtk r lk2 lk.bin` in *step 4*
-    {: .prompt-tip }
+    > ✴️ If you get errors, use command `python mtk r lk2 lk.bin` in *step 4*
 
-	![](https://i.ibb.co/9rc1cKF/Untitled.jpg){: height="700" }
+	![](https://i.ibb.co/9rc1cKF/Untitled.jpg)
 
 8. Run command `python mtk w lk lk-patched.bin`

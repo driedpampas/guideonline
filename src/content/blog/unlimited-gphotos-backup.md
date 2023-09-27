@@ -14,8 +14,7 @@ description: Enabla unlimited Google Photos backup
 canonicalURL: https://guide.driedpampas.ro.eu.org/unlimited-gphotos-backup
 ---
 
-> # Only for rooted devices
-{: .prompt-danger }
+> 🛑 Only for rooted devices
 
 ## Magisk
 - install LSposed using Magisk Manager

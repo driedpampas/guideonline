@@ -14,9 +14,7 @@ description: Fixing SafetyNet verification
 canonicalURL: https://guide.driedpampas.ro.eu.org/safety-net
 ---
 
-
-> This is for rooted devices only
-{: .prompt-danger }
+> 🛑 This is for rooted devices only
 
 ## Magisk
 - Install [safetynet-fix](https://drive.google.com/file/d/1JBEgzBqVKWD1U5GgP46sFXse_1UmqgCJ/view?usp=sharing) with Magisk Manager
