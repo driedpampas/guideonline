@@ -5,7 +5,7 @@ export const SITE: Site = {
   author: "supernova",
   desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
   title: "Guide",
-  ogImage: "astropaper-og.jpg",
+  ogImage: "guide-og.jpg",
   lightAndDarkMode: true,
   postPerPage: 10,
 };
@@ -15,8 +15,8 @@ export const LOCALE = ["en-EN"]; // set to [] to use the environment default
 export const LOGO_IMAGE = {
   enable: true,
   svg: true,
-  width: 216,
-  height: 46,
+  width: 43,
+  height: 51,
 };
 
 export const SOCIALS: SocialObjects = [
