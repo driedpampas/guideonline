@@ -16,7 +16,6 @@ canonicalURL: https://guide.driedpampas.ro.eu.org/guide
 ---
 
 # Realme 8 MEGAGUIDE
-###### Version 2.1-astro
 ==================
 
 > If you have any questions at any moment feel free to message [Realme 8 AOSP](https://t.me/Realme8AOSPGroup) on Telegram or [open a new Discussion](https://github.com/driedpampas/realme-8-megaguide/discussions/new/choose) on GitHub. Also check the [FAQ (frequently asked questions)](posts/FAQ/)
