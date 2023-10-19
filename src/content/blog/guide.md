@@ -35,6 +35,9 @@ canonicalURL: https://guide.driedpampas.ro.eu.org/guide
 ## Table of Contents
 
 * * *
+# 0. Back up your system partitions
+### Just in case something fails or your device gets bricked please use the [Backup guide (in wiki)](posts/back-up-your-data)
+
 # I. Unlocking 
 
 ## Prerequisites 
