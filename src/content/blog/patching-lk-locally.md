@@ -23,7 +23,7 @@ description: If the online method doesn't work try this manual method!
 
    ![](https://i.imgur.com/gL4Qpc2.png)
 
-5. Download [lkpatcher](https://codeload.github.com/R0rt1z2/lkpatcher/zip/refs/heads/main) and extract it. Navigate to the `lkpatcher folder`. It should contain a file `main.py`.
+5. Download [lkpatcher](https://codeload.github.com/R0rt1z2/lkpatcher/zip/refs/heads/master) and extract it. Navigate to the `lkpatcher folder`. It should contain a file `main.py`.
 
    ![](https://i.ibb.co/r68tF52/Screenshot-from-2023-08-02-16-29-59.png)
 
