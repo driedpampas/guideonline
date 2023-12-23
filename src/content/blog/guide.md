@@ -31,6 +31,8 @@ canonicalURL: https://guide.driedpampas.ro.eu.org/guide
 
 > **📛 WARNING: RUI4 disables fastboot access if previously unlocked, only upgrade to RUI3 until it is resolved.**
 
+> **✨✨✨ You can revert all the changes by following [Revert](posts/revert)**
+
 ---
 
 ## Table of Contents
