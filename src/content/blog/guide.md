@@ -25,8 +25,6 @@ canonicalURL: https://guide.driedpampas.ro.eu.org/guide
 
 > ℹ️ If you have unlocked already skip to [[EXTRA] Installing a Custom recovery and ROM](#iii-installing--a-custom-recovery-and-rom)
 
-> Make sure to back up your data, because you will lose it. If you want to back up your RealmeUI install just in case use the [Backup guide (in wiki)](posts/back-up-your-data)
-
 > **✴️ Make sure to read and do all of the steps to avoid your device being bricked.**
 
 > **📛 WARNING: RUI4 disables fastboot access if previously unlocked, only upgrade to RUI3 until it is resolved.**
@@ -41,7 +39,9 @@ canonicalURL: https://guide.driedpampas.ro.eu.org/guide
 
 # 0. Back up your system partitions
 
-### Just in case something fails or your device gets bricked please use the [Backup guide (in wiki)](posts/back-up-your-data)
+> [!CAUTION]
+> # BEFORE ATTEMPTING ANY OPERATIONS FOLLOW THE [Backup guide (in wiki)](https://github.com/driedpampas/realme-8-megaguide/wiki/Back-up-your-data)
+ [Backup guide (in wiki)](posts/back-up-your-data)
 
 # I. Unlocking
 
